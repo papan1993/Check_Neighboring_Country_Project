@@ -83,7 +83,9 @@
 10) To use the library universally in any machine and code : Follow the steps after installing the library :
 
     ## import the library
+    '''
     from Check_Neighboring_Country_Library.NeighboringCountry_module import Neighbor_Country_class
+    '''
     
     ## create an object
     check_country_object = Neighbor_Country_class()
