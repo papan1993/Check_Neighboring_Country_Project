@@ -59,22 +59,27 @@
    
 5) Run the setup file with wheel : If you don't have the wheel file, otherwise install like step-3
 
-    -> ```chmod +x setup.py```                     ##(To make executable)
+      ##(To make executable)
+    -> ```chmod +x setup.py```  
+    
     -> ```python3 setup.py bdist_wheel```
    
 6) Go to the generated dist folder to install the package :
 
     -> ```cd /system_path/Check_Neighboring_Country_Project/dist/```
+    
     -> ```sudo pip3 install Check_Neighboring_Country_Library-1.0.0-py3-none-any.whl```
    
 7) Run the setup with testcases to run all the 10 test cases:
 
     -> ```cd /system_path/Check_Neighboring_Country_Project/```
+    
     -> ```python3 setup.py pytest```
    
 8) Run the main code to manually give URL input and check the results
 
     -> ```cd /system_path/Check_Neighboring_Country_Project/run_code/```
+    
     -> ```python3 Run_main.py```
    
 11) To uninstall the library / package from the system : Run the following command :
