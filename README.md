@@ -83,19 +83,26 @@
 10) To use the library universally in any machine and code : Follow the steps after installing the library :
 
     ## import the library
-    '''
+    ```
     from Check_Neighboring_Country_Library.NeighboringCountry_module import Neighbor_Country_class
-    '''
+    ```
     
     ## create an object
+    ```
     check_country_object = Neighbor_Country_class()
+    ```
    
     ## Input (String : 2 country URL's)
+    ```
     url_link_1 = "https://en.wikipedia.org/wiki/Indonesia"
+    
     url_link_2 = "https://en.wikipedia.org/wiki/China"
+    ```
    
     ## Get the result in Boolean : True or False
+    ```
     result_flag = check_country_object.is_neighboring_country(url_link_1, url_link_2)
+    ```
 
 ########################  CONTACT FOR BUGS  OR INFORMATION  ####################
 
