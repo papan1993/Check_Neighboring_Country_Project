@@ -18,19 +18,20 @@
 2) wheel file in the "Check_Neighboring_Country_Project/dist/" is automatically generated while following setup commands 
    which can be easily used to install in any environment or machine as it creates an image file.
 3) Project Structure:
-    __/Check_Neighboring_Country_Project
-         |__Check_Neighboring_Country_Library
-            |____init__.py
-            |__KMP_module.py
-            |__NeighboringCountry_module.py
-            |__Scrapper_module.py
-         |__run_code
-            |__Run_main.py
-         |__tests
-            |____init__.py
-            |__test_check_neighbor_country.py
-         |__setup.py
-         |__README.md
+   ``` __/Check_Neighboring_Country_Project
+            |__Check_Neighboring_Country_Library
+               |____init__.py
+               |__KMP_module.py
+               |__NeighboringCountry_module.py
+               |__Scrapper_module.py
+            |__run_code
+               |__Run_main.py
+            |__tests
+               |____init__.py
+               |__test_check_neighbor_country.py
+            |__setup.py
+            |__README.md
+            ```
 
 4) You can Run the projects in 2 ways : 
    i) Directly use the given wheel file to install in system python3 lib 
@@ -42,43 +43,43 @@
 ------------------------------------------------------
 1) Base Pre-required Dependencies or Libraries : 
     
-    -> "sudo apt-get install python3 python3-pip python3-setuptools wheel"
+    -> ```sudo apt-get install python3 python3-pip python3-setuptools wheel```
    
 2) * Optional: If you just want to install the package and don't have the full-project zip, then install the following dependent libraries
    
-    -> "sudo pip3 install requests bs4"
+    -> ```sudo pip3 install requests bs4```
 
 3) If you have the project package wheel file : Directly install it from the location where the wheel is downloaded
 
-    -> "sudo pip3 install Check_Neighboring_Country_Library-1.0.0-py3-none-any.whl"
+    -> ```sudo pip3 install Check_Neighboring_Country_Library-1.0.0-py3-none-any.whl```
     
 4) Unzip and Go to the project folder (If you downloaded the whole archive project):
 
-    -> "cd /system_path/Check_Neighboring_Country_Project/"
+    -> ```cd /system_path/Check_Neighboring_Country_Project/```
    
 5) Run the setup file with wheel : If you don't have the wheel file, otherwise install like step-3
 
-    -> "chmod +x setup.py"                     ##(To make executable)
-    -> "python3 setup.py bdist_wheel"
+    -> ```chmod +x setup.py```                     ##(To make executable)
+    -> ```python3 setup.py bdist_wheel```
    
 6) Go to the generated dist folder to install the package :
 
-    -> "cd /system_path/Check_Neighboring_Country_Project/dist/"
-    -> "sudo pip3 install Check_Neighboring_Country_Library-1.0.0-py3-none-any.whl"
+    -> ```cd /system_path/Check_Neighboring_Country_Project/dist/```
+    -> ```sudo pip3 install Check_Neighboring_Country_Library-1.0.0-py3-none-any.whl```
    
 7) Run the setup with testcases to run all the 10 test cases:
 
-    -> "cd /system_path/Check_Neighboring_Country_Project/"
-    -> "python3 setup.py pytest"
+    -> ```cd /system_path/Check_Neighboring_Country_Project/```
+    -> ```python3 setup.py pytest```
    
 8) Run the main code to manually give URL input and check the results
 
-    -> "cd /system_path/Check_Neighboring_Country_Project/run_code/"
-    -> "python3 Run_main.py"
+    -> ```cd /system_path/Check_Neighboring_Country_Project/run_code/```
+    -> ```python3 Run_main.py```
    
 11) To uninstall the library / package from the system : Run the following command :
     
-    -> "sudo pip3 uninstall Check-Neighboring-Country-Library"
+    -> ```sudo pip3 uninstall Check-Neighboring-Country-Library```
 
 10) To use the library universally in any machine and code : Follow the steps after installing the library :
 
