@@ -84,7 +84,7 @@
    
 11) To uninstall the library / package from the system : Run the following command :
     
-    -> ```sudo pip3 uninstall Check-Neighboring-Country-Library```
+    -> ```sudo pip3 uninstall Check_Neighboring_Country_Library```
 
 10) To use the library universally in any machine and code : Follow the steps after installing the library :
 
